@@ -80,10 +80,18 @@ A React Native mobile application for viewing and managing learning activities (
    
 ### Running the App
 
+**Basic command(npm start runs this):**
+```bash
+npx expo start
+```
+
 **On Web:**
 ```bash
 npm run web
 ```
+
+**On mobile(android or ios):**  
+When you run the application using the above command (npm run web) or npx expo start, a QR code will be generated. Scan the code using the expo go application on your android or the camera app on your ios, the Expo go application will open with the project running on it. Ensure that you have the Expo go app installed on your device.
 
 **On iOS Simulator:**
 ```bash
